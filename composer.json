@@ -1,0 +1,26 @@
+{
+    "name": "jimbo2150/php-utilities",
+    "description": "Various utilities for PHP projects or libraries.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Jimbo2150\\PhpUtilities\\": "src/"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Jimbo2150\\PhpUtilities\\Tests\\": "tests/"
+        }
+	},
+    "authors": [
+        {
+            "name": "Jim Robinson",
+            "email": "jimbo2150@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.70",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0"
+    }
+}
