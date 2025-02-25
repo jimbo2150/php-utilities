@@ -1,0 +1,16 @@
+<phpunit bootstrap="vendor/autoload.php">
+	<testsuites>
+		<testsuite name="Tests">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+	<source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
+	<coverage/>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+    </php>
+</phpunit>
