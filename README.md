@@ -1,5 +1,3 @@
-# PHP Utilities
-
 ![Version](https://img.shields.io/github/v/release/jimbo2150/php-utilities)
 ![License](https://img.shields.io/github/license/jimbo2150/php-utilities)
 ![PHP Required Version](https://img.shields.io/packagist/dependency-v/jimbo2150/php-utilities/php)
